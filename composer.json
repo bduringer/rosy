@@ -1,0 +1,21 @@
+{
+    "name": "framework/rosy",
+    "description": "Rosy framework for gardeners",
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Framework\\Rosy\\": "app/"
+        },
+        "files": [
+            "app/http/Router.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "bernardotecsa",
+            "email": "137415571+bernardotecsa@users.noreply.github.com"
+        }
+    ]
+}

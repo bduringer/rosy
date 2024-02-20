@@ -1,0 +1,32 @@
+<?php
+
+// Inclua o autoload do Composer
+require __DIR__ . '/vendor/autoload.php';
+
+// Verifique se o comando foi especificado
+if ($argc < 2) {
+    echo "Usage: php rosy <command> [options]\n";
+    exit(1);
+}
+
+// Parse o comando e os argumentos
+$command = $argv[1];
+
+// Determine qual comando foi especificado e execute-o
+switch ($command) {
+    case 'make:model':
+        // Executar a lógica para criar um modelo
+        $modelName = $argv[2] ?? '';
+        // Implemente a lógica para criar o modelo com o nome fornecido
+        echo "Creating model: $modelName\n";
+        break;
+    case 'make:controller':
+        // Executar a lógica para criar um controlador
+        // ...
+        break;
+    default:
+        echo "Unknown command: $command\n";
+        exit(1);
+}
+
+exit(0);
