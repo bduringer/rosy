@@ -1,14 +1,17 @@
-<?php 
+<?php
 
-    use app\http\Router;
-    
-    $router = new Router();
+use app\http\Kernel;
 
-    $router->get('/', 'HomeController@index');
+$kernel = new Kernel();
 
-    $uri = $_SERVER['REQUEST_URI'];
-    $method = $_SERVER['REQUEST_METHOD'];
+// Defina suas rotas
+$kernel->get('/', ['HomeController', 'index']);
+$kernel->get('/user', ['UserController', 'index']);
+$kernel->post('/user/${id}', ['UserController', 'update']);
+// Adicione mais rotas conforme necessário
 
-    $response = $router->dispatch($method, $uri);
+// Registre as rotas
+return $kernel->registerRoutes();
 
-    echo $response;
+
+

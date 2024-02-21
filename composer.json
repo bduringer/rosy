@@ -6,10 +6,15 @@
     },
     "autoload": {
         "psr-4": {
-            "Framework\\Rosy\\": "app/"
+            "app\\": "app/"
         },
         "files": [
-            "app/http/Router.php"
+            "app/http/Router.php",
+            "app/http/Engine.php",
+            "app/http/Kernel.php",
+            "app/helpers/Auth.php",
+            "app/helpers/Helpers.php",
+            "app/helpers/Macros.php"
         ]
     },
     "authors": [

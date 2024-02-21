@@ -11,9 +11,18 @@ class ComposerStaticInitdf6a0bf91cb5f13f2668577c35b700f9
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         'f108ad2fc5db898cced9928cce81d476' => __DIR__ . '/../..' . '/app/http/Router.php',
+        'b0b1038dfe01346b9d4a73c71fa7bde3' => __DIR__ . '/../..' . '/app/http/Engine.php',
+        'e01cbda7120ecc0877228f262ad5ec9a' => __DIR__ . '/../..' . '/app/http/Kernel.php',
+        '51c43da7d5a92fbbfb72289794367ff6' => __DIR__ . '/../..' . '/app/helpers/Auth.php',
+        '329cc991d2f5fa09778bb36ef54382db' => __DIR__ . '/../..' . '/app/helpers/Helpers.php',
+        '5e04766425c532d165bcaf71e292c2bc' => __DIR__ . '/../..' . '/app/helpers/Macros.php',
     );
 
     public static $prefixLengthsPsr4 = array (
+        'a' => 
+        array (
+            'app\\' => 4,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Php80\\' => 23,
@@ -28,10 +37,6 @@ class ComposerStaticInitdf6a0bf91cb5f13f2668577c35b700f9
         array (
             'GrahamCampbell\\ResultType\\' => 26,
         ),
-        'F' => 
-        array (
-            'Framework\\Rosy\\' => 15,
-        ),
         'D' => 
         array (
             'Dotenv\\' => 7,
@@ -39,6 +44,10 @@ class ComposerStaticInitdf6a0bf91cb5f13f2668577c35b700f9
     );
 
     public static $prefixDirsPsr4 = array (
+        'app\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app',
+        ),
         'Symfony\\Polyfill\\Php80\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php80',
@@ -58,10 +67,6 @@ class ComposerStaticInitdf6a0bf91cb5f13f2668577c35b700f9
         'GrahamCampbell\\ResultType\\' => 
         array (
             0 => __DIR__ . '/..' . '/graham-campbell/result-type/src',
-        ),
-        'Framework\\Rosy\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/app',
         ),
         'Dotenv\\' => 
         array (

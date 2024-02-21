@@ -2,10 +2,10 @@
 
 namespace app\controllers;
 
-class HomeController
+class UserController
 {
     public function index()
     {
-        return view('home',['title'=>'Teste de titulo']);
+        return view('user');
     }
 }

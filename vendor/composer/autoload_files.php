@@ -10,4 +10,9 @@ return array(
     '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => $vendorDir . '/symfony/polyfill-mbstring/bootstrap.php',
     'a4a119a56e50fbb293281d9a48007e0e' => $vendorDir . '/symfony/polyfill-php80/bootstrap.php',
     'f108ad2fc5db898cced9928cce81d476' => $baseDir . '/app/http/Router.php',
+    'b0b1038dfe01346b9d4a73c71fa7bde3' => $baseDir . '/app/http/Engine.php',
+    'e01cbda7120ecc0877228f262ad5ec9a' => $baseDir . '/app/http/Kernel.php',
+    '51c43da7d5a92fbbfb72289794367ff6' => $baseDir . '/app/helpers/Auth.php',
+    '329cc991d2f5fa09778bb36ef54382db' => $baseDir . '/app/helpers/Helpers.php',
+    '5e04766425c532d165bcaf71e292c2bc' => $baseDir . '/app/helpers/Macros.php',
 );

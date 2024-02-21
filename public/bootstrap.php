@@ -1,4 +1,6 @@
 <?php 
     session_start();
     require dirname(__FILE__,2) . '/vendor/autoload.php';
-    require dirname(__FILE__,2) . '/routes/web.php';
+    $dotenv = Dotenv\Dotenv::createImmutable(dirname(__FILE__,2));
+    $dotenv->load();
+    execRouter();   
